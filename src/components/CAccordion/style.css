@@ -1,0 +1,49 @@
+.accordion .mantine-Accordion-item {
+    background: none;
+}
+
+.accordion .mantine-Accordion-item[data-active] {
+    background: none;
+}
+
+.accordion .mantine-Accordion-control {
+    padding: 0 6px 0 0;
+    background-color: none;
+}
+
+.accordion .mantine-Accordion-control:hover {
+    background: none;
+}
+
+.accordion .mantine-Accordion-content {
+    padding: 0 2px 0 0;
+}
+
+.accordion span {
+    width: auto;
+}
+
+.accordion .active span {
+    color: #414141;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.9%;
+    letter-spacing: 0.48px;
+}
+
+.accordion .active span {
+    color: #2B2B2B;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 126.9%;
+    letter-spacing: 0.54px;
+}
+
+.accordion span svg {
+    width: 20px !important;
+    height: auto !important;
+}

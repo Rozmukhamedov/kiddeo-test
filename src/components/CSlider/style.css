@@ -1,0 +1,27 @@
+.slider {
+    margin: 10px 0 20px;
+}
+
+.slider .mantine-Slider-bar {
+    background: none;
+}
+
+.slider .mantine-Slider-mark {
+    display: none !important;
+}
+
+.slider .mantine-Slider-markWrapper:first-child {
+    left: 10px;
+    top: 6px;
+}
+
+.slider .mantine-Slider-markWrapper:last-child {
+    left: 94%;
+    top: 6px;
+}
+
+.slider .mantine-Slider-thumb {
+    width: 15px;
+    height: 15px;
+    background: #F2766A;
+}

@@ -1,0 +1,32 @@
+.select .mantine-Select-wrapper:focus-within {
+    border: 1px solid #F2766A;
+    color: #F2766A;
+    border-radius: 4px;
+}
+
+.select .mantine-Select-wrapper:focus-within input {
+    border: none;
+}
+
+.select .mantine-Select-wrapper input {
+    color: #2B2B2B;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.select .mantine-Select-wrapper:hover input {
+    /* border: none; */
+    color: #2B2B2B;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.mantine-Select-option[aria-selected="true"] {
+    color: #F2766A !important;
+}

@@ -1,0 +1,75 @@
+.date-picker label {
+    color: #2B2B2B;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.9%;
+    letter-spacing: 0.48px;
+    margin-bottom: 15px;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper svg path {
+    fill: #858585;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:focus-within {
+    border: 1px solid #F2766A;
+    color: #F2766A;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:focus-within button {
+    border: none;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:focus-within svg path {
+    fill: #F2766A;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:hover {
+    border: 1px solid #F2766A;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper button {
+    color: #414141;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    letter-spacing: 0.42px;
+    text-transform: lowercase;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:hover button {
+    border: none;
+    color: #414141;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    letter-spacing: 0.42px;
+    text-transform: lowercase;
+}
+
+.date-picker .mantine-DatePickerInput-wrapper:hover svg path {
+    fill: #F2766A
+}
+
+.mantine-DatePickerInput-day[data-selected] {
+    background: #F2766A;
+    border-radius: 50%;
+}
+
+.mantine-DatePickerInput-day:hover {
+    background: none;
+}
+
+.mantine-DatePickerInput-calendarHeaderControl:hover {
+    background: none;
+}
+
+.mantine-DatePickerInput-calendarHeaderControl:hover svg path {
+    fill: #F2766A !important;
+}

@@ -1,0 +1,25 @@
+.main__Filters {
+    margin-bottom: 10px;
+}
+
+.main__Filters h4 {
+    color: #2B2B2B;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.9%;
+    letter-spacing: 0.54px;
+    margin-bottom: 32px;
+}
+
+.main__Filters .times {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.main__Filters .times input {
+    margin-right: 10px;
+}
